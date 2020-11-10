@@ -1,0 +1,23 @@
+{
+  "ApplicationConfiguration": {
+    "Logger": {
+      "Path": "Logs_{0}",
+      "ConsoleOutput": true,
+      "Active": true
+    },    
+    "Storage": {
+      "Engine": "LevelDBStore"
+    },
+    "P2P": {
+      "Port": 20337,
+      "WsPort": 10337,
+      "MaxConnectionsPerAddress": 10
+    },
+    "UnlockWallet": {
+      "Path": "",
+      "Password": "",
+      "StartConsensus": false,
+      "IsActive": false
+    }
+  }
+}
